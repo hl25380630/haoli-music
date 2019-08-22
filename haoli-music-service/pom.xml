@@ -6,4 +6,12 @@
     <version>1.0</version>
   </parent>
   <artifactId>haoli-music-service</artifactId>
+  
+  <dependencies>
+   	<dependency>
+ 		<groupId>com.haoli</groupId>
+		<artifactId>haoli-music-dao</artifactId>
+		<version>1.0</version>
+	</dependency>
+  </dependencies>
 </project>
