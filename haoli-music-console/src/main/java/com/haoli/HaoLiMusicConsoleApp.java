@@ -8,15 +8,15 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-
 @SpringBootApplication
 @EnableTransactionManagement
 @EnableScheduling
 @EnableConfigurationProperties
 @EnableAsync
-public class HaoLiMusicApp {
+public class HaoLiMusicConsoleApp {
+	
 	public static void main(String[] args) {
-		ApplicationContext music = SpringApplication.run(HaoLiMusicApp.class, args);
+		ApplicationContext music = SpringApplication.run(HaoLiMusicConsoleApp.class, args);
 	}
 
 }

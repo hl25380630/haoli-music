@@ -6,4 +6,30 @@
     <version>1.0</version>
   </parent>
   <artifactId>haoli-music-console</artifactId>
+  
+  <dependencies>
+   	<dependency>
+ 		<groupId>com.haoli</groupId>
+		<artifactId>haoli-music-dao</artifactId>
+		<version>1.0</version>
+	</dependency>
+   	<dependency>
+  		<groupId>com.haoli</groupId>
+		<artifactId>haoli-music-service</artifactId>
+		<version>1.0</version>
+	</dependency>
+  </dependencies>
+  
+  	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.haoli.HaoLiMusicConsoleApp</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
 </project>

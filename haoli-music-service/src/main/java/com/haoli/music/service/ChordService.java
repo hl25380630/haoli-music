@@ -3,7 +3,7 @@ package com.haoli.music.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DemoService {
+public class ChordService {
 
 
 }
